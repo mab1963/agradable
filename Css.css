@@ -1,0 +1,135 @@
+/* Created by Ricardo Rivero */
+*{
+    margin:0;
+    padding:0;
+}
+
+ body {
+    width:100vw;
+    height:100vh;
+    background-color: midnightblue;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_640.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    font-family: fantasy;
+    color:gold}
+content{
+      width:90vw;
+      background-color:#777;
+    
+  }  
+    
+   .slider{
+       width:90%;
+       margin:auto ;
+       overflow:hidden ;
+   } 
+    .slider ul{
+        display:flex;
+        padding:0;
+        width:400%; 
+    animation:cambio 12s infinite alternate;
+    }
+    
+    .slider li{
+        width:100%;
+        list-style:none ;
+    }
+    .slider img{
+        width:100%;
+        height:200px;
+        border-radius:20px;
+    }
+@keyframes cambio {
+        0%{margin-left:0;}
+        20%{margin-left:0;}
+        
+     25%{margin-left:-100%;}
+        45%{margin-left:-100%;}
+        
+    50%{margin-left:-200%;}
+        70%{margin-left:-200%;}
+        75%{margin-left:-300%;}
+        100%{margin-left:-300%;}
+   } 
+
+form{
+    width:80vw;
+    padding:10px;
+    
+}
+.cont{
+    width:70vw;
+    background-color:#;
+    margin:20px 0;
+    align-content:center ;
+}
+
+label{
+    font-size:12px;
+    display:block ;
+    width:100%;
+    border-radius:10px;
+    
+}
+textarea{
+    resize:both ;
+    max-height:150px;
+    min-height:50px;
+    border-radius:10px;
+}
+input, textarea{
+    margin-bottom:10px;
+    width:100%;
+    padding:10px;
+    box-sizing:border-box ;
+    border:3px solid:#ccc;
+    background-color:  #929275;
+    opacity:;
+    border-radius:10px;
+}
+input:focus,textarea;{
+    border:3px solid #1668c4;
+    
+    
+}
+input[type="submit"]{
+    margin-bottom:0px;
+    background:#1668c4;
+    border:none ;
+    border-radius:10px;
+    width:52%;
+    margin:auto auto ;
+    
+    
+    
+}
+input[type="submit"]{
+    background:#4A88F4;
+    cursor:pointer ;
+}
+
+
+
+
+
+
+.div-i{
+    display:box;
+    width:200%;
+    margin-top:500px;
+}
+.div-img{
+    width:30%;
+    height:100px;
+    
+}
+
+.a {
+    width:300px;
+    height:300px;
+    background:linear-gradient(65deg,hsl(19,40%,60%),hsl(30,80%,60%));
+}
+h1{
+    color:#FFC300 ;
+}
